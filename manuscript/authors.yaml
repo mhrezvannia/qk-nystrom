@@ -1,0 +1,22 @@
+# Author metadata (supplied by the author on 7 Sep 2026; verbatim from the author's previous QMI submission and the author's instruction).
+authors:
+  - name: Mohammad Hossein Rezvannia
+    mark: ""
+    initials: M.H.R.
+affiliations:
+  - mark: ""
+    affiliation: Department of Computer Engineering, West Tehran Branch, Islamic Azad University, Tehran, Iran
+corresponding:
+  name: Mohammad Hossein Rezvannia
+  email: mh.rezvannia@gmail.com
+orcids: {}          # none supplied
+# Statements and Declarations (QMI). Funding and competing-interest wording copied from the author's previous QMI submission
+# (Rezvannia, "A hybrid quantum machine learning framework ..."); the author must confirm they hold for this manuscript.
+declarations:
+  funding: "The author declares that no funds, grants, or other support were received during the preparation of this manuscript."
+  competing_interests: "The author has no relevant financial or non-financial interests to disclose."
+  ethics: "Not applicable. The study uses publicly available benchmark data sets and involves no human participants, animals or personal data."
+  data_availability: "Fashion-MNIST and MNIST are public benchmark data sets; the exact files used are downloaded by `scripts/prepare_data.py` from their canonical repositories. Breast Cancer Wisconsin (Diagnostic) is distributed with scikit-learn. Every per-configuration result is provided as Online Resource 2, and every table and figure with its provenance metadata is included in the code repository."
+  code_availability: "The complete pipeline (configuration, statevector simulator, experiment scripts, analysis, tests and the manuscript builder) is provided as a repository archive with the submission; its README lists the commands that regenerate every number, table and figure in this paper. The repository will be deposited in a public archive with a DOI [DOI to be inserted by the author at deposit]."
+  author_contributions: "M.H.R. is the sole author and carried out all parts of the work: conceptualisation, theoretical analysis, software, experiments, statistical analysis and writing."
+  ai_use: "A large-language-model assistant (Claude, Anthropic) was used under the author's direction to draft and refactor code, to run the analysis scripts and to draft and edit the manuscript text from the generated tables. Every derivation, number and statement was checked by the author, who takes full responsibility for the content; the assistant is not an author."

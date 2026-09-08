@@ -1,0 +1,9 @@
+task,rank_lambda,count
+fashion_0v1,1.0,9
+fashion_0v1,0.1,1
+fashion_2v4,1.0,7
+fashion_2v4,0.3,2
+fashion_2v4,0.1,1
+mnist_3v8,1.0,8
+mnist_3v8,0.3,1
+mnist_3v8,0.1,1

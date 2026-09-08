@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/
+data/*.npz
+logs/
+manuscript/manuscript.md
+manuscript/manuscript.docx
+manuscript/manuscript_anonymous.*
+manuscript/supplement.md
+manuscript/abstract_plain.txt
+manuscript/reference_qmi.docx
+manuscript/ESM_2.xlsx
+submission_ready/

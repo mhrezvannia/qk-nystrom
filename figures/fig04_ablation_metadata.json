@@ -1,0 +1,14 @@
+{
+ "figure": "fig04_ablation",
+ "description": "Feature-map ablation (a = \u03c0; 3 tasks \u00d7 5 seeds): paired accuracy difference to the product-cosine kernel, KTA and Nystr\u00f6m error for each variant.",
+ "sources": [
+  "results/ablation_per_seed.csv"
+ ],
+ "source_sha256": {
+  "ablation_per_seed.csv": "6b6721d7be459f61"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:59:01.156028Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

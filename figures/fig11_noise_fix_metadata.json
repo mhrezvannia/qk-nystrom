@@ -1,0 +1,14 @@
+{
+ "figure": "fig11_noise_fix",
+ "description": "Noise-robust Nystr\u00f6m variants under finite-shot estimation (two tasks \u00d7 10 seeds).",
+ "sources": [
+  "results/noise_fix_per_seed.csv"
+ ],
+ "source_sha256": {
+  "noise_fix_per_seed.csv": "ca72885670c19340"
+ },
+ "script": "analysis/make_figures_extra.py",
+ "generated": "2026-09-08T12:59:13.070542Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

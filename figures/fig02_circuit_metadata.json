@@ -1,0 +1,14 @@
+{
+ "figure": "fig02_circuit",
+ "description": "Feature-map circuits (drawn with 4 qubits; experiments use 8): (a) trainable fiducial state before the encoding; (b) the previous, provably inert construction.",
+ "sources": [
+  "src/qkn/feature_maps.py"
+ ],
+ "source_sha256": {
+  "feature_maps.py": "99e9e93d9e2795bf"
+ },
+ "script": "analysis/make_figures_extra.py",
+ "generated": "2026-09-08T12:59:12.052790Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

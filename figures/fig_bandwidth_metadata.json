@@ -1,0 +1,14 @@
+{
+ "figure": "fig_bandwidth",
+ "description": "Feature-scaling (bandwidth) study.",
+ "sources": [
+  "results/bandwidth_per_seed.csv"
+ ],
+ "source_sha256": {
+  "bandwidth_per_seed.csv": "0a56167cabf2d45c"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:59:05.881044Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

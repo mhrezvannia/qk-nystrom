@@ -1,0 +1,14 @@
+{
+ "figure": "fig06_acc_vs_m",
+ "description": "test accuracy versus landmark budget m for the trained covariant quantum kernel; mean \u00b1 SD over 10 seeds; one panel per task.",
+ "sources": [
+  "results/main_per_seed.csv"
+ ],
+ "source_sha256": {
+  "main_per_seed.csv": "71f433112acc91a8"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:58:53.820768Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

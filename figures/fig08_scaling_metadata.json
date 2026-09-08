@@ -1,0 +1,14 @@
+{
+ "figure": "fig08_scaling",
+ "description": "Scaling with training-set size N (fashion_0v1, 3 seeds): circuit evaluations (symmetric count), wall-clock in simulation, and test accuracy.",
+ "sources": [
+  "results/scaling_per_seed.csv"
+ ],
+ "source_sha256": {
+  "scaling_per_seed.csv": "f5718b43d1968fbf"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:59:04.609033Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

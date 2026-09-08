@@ -1,0 +1,14 @@
+{
+ "figure": "fig01_pipeline",
+ "description": "Schematic of the leakage-safe pipeline and evaluation protocol.",
+ "sources": [
+  "configs/main.yaml"
+ ],
+ "source_sha256": {
+  "main.yaml": "6454c2836308ec33"
+ },
+ "script": "analysis/make_figures_extra.py",
+ "generated": "2026-09-08T12:59:09.400115Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

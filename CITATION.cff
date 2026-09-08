@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper and this archive."
+title: "Nyström compression of trainable quantum kernels — code, results and manuscript pipeline"
+abstract: "Reproducible pipeline for the study of Nyström-compressed torus-covariant quantum kernels: statevector simulator,
+  experiments, analysis, figures/tables and the manuscript builder that regenerates every number in the paper."
+authors:
+  - family-names: Rezvannia
+    given-names: Mohammad Hossein
+    affiliation: "Department of Computer Engineering, West Tehran Branch, Islamic Azad University, Tehran, Iran"
+    email: mh.rezvannia@gmail.com
+license: MIT
+version: 1.0.0
+date-released: 2026-09-08
+keywords:
+  - quantum kernel methods
+  - Nyström approximation
+  - covariant quantum kernels
+  - landmark selection
+  - finite-shot noise
+  - benchmarking

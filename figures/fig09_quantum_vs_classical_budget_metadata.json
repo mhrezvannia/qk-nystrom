@@ -1,0 +1,14 @@
+{
+ "figure": "fig09_quantum_vs_classical_budget",
+ "description": "Test accuracy versus budget m for quantum Nystr\u00f6m (trained covariant and product-cosine kernels), classical RBF Nystr\u00f6m with identical k-means landmarks, and RBF random Fourier features with D = m; dashed: exact kernels.",
+ "sources": [
+  "results/main_per_seed.csv"
+ ],
+ "source_sha256": {
+  "main_per_seed.csv": "71f433112acc91a8"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:58:56.846876Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

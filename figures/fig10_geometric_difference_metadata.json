@@ -1,0 +1,14 @@
+{
+ "figure": "fig10_geometric_difference",
+ "description": "Geometric difference (Huang et al. 2021, \u03bb = 0.01) between the exact quantum kernels and tuned classical RBF / linear kernels on the 600 training points; values far below sqrt(N) mean the classical kernel can express the quantum kernel's functions.",
+ "sources": [
+  "results/main_per_seed.csv"
+ ],
+ "source_sha256": {
+  "main_per_seed.csv": "71f433112acc91a8"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:58:59.501448Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

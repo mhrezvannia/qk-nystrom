@@ -1,0 +1,248 @@
+{
+ "env": {
+  "python": "3.11.15",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "sklearn": "1.8.0",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "config_hash": 3192500018
+ },
+ "config": {
+  "experiment_name": "qk_nystrom_v1",
+  "data": {
+   "n_qubits": 8,
+   "n_train": 600,
+   "val_fraction": 0.2,
+   "test": "official_full",
+   "tabular_test_fraction": 0.3,
+   "tasks": [
+    {
+     "dataset": "fashion",
+     "classes": [
+      0,
+      1
+     ]
+    },
+    {
+     "dataset": "fashion",
+     "classes": [
+      2,
+      4
+     ]
+    },
+    {
+     "dataset": "fashion",
+     "classes": [
+      0,
+      6
+     ]
+    },
+    {
+     "dataset": "fashion",
+     "classes": [
+      5,
+      7
+     ]
+    },
+    {
+     "dataset": "mnist",
+     "classes": [
+      3,
+      8
+     ]
+    },
+    {
+     "dataset": "mnist",
+     "classes": [
+      4,
+      9
+     ]
+    },
+    {
+     "dataset": "breast_cancer"
+    }
+   ]
+  },
+  "preprocessing": {
+   "pca_components": 8,
+   "scaling_ranges": [
+    1.5707963,
+    3.1415927,
+    6.2831853
+   ],
+   "bandwidth_study_ranges": [
+    0.7853982,
+    1.5707963,
+    3.1415927,
+    4.712389,
+    6.2831853
+   ]
+  },
+  "feature_map": {
+   "primary": "covariant_torus",
+   "layers": 2,
+   "entangle": true,
+   "theta_init": "uniform",
+   "kta_train_subsample": 256,
+   "kta_maxiter": 60,
+   "kta_restarts": 1,
+   "ablation_maps": [
+    "product_cosine",
+    "covariant_torus",
+    "reuploading",
+    "zz_reuploading"
+   ]
+  },
+  "svm": {
+   "C_grid": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+   ],
+   "rbf_gamma_grid": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1,
+    2,
+    4
+   ],
+   "logreg_C_grid": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+   ]
+  },
+  "nystrom": {
+   "m_grid": [
+    10,
+    20,
+    30,
+    40,
+    60,
+    80,
+    120,
+    200,
+    300,
+    400,
+    600
+   ],
+   "strategies": [
+    "uniform",
+    "kmeanspp",
+    "kmeans_centroids",
+    "kmeans_nearest",
+    "leverage"
+   ],
+   "eps": 1e-06,
+   "rcond": 1e-10,
+   "normalize": false,
+   "rff_dims": [
+    10,
+    20,
+    30,
+    40,
+    60,
+    80,
+    120,
+    200,
+    300,
+    400,
+    600
+   ]
+  },
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "noise": {
+   "tasks": [
+    "fashion_0v1",
+    "fashion_2v4"
+   ],
+   "shots": [
+    100,
+    1000,
+    10000,
+    null
+   ],
+   "depolarizing": [
+    0.0,
+    0.05,
+    0.2
+   ],
+   "m_values": [
+    20,
+    60,
+    120
+   ],
+   "eps_values": [
+    1e-06,
+    0.001,
+    0.1
+   ],
+   "normalize_values": [
+    false,
+    true
+   ],
+   "strategy": "kmeans_centroids"
+  },
+  "scaling": {
+   "task": "fashion_0v1",
+   "n_values": [
+    600,
+    1200,
+    2400,
+    4800,
+    9600
+   ],
+   "m_fixed": 60,
+   "m_sqrt_factor": 2.45,
+   "seeds": [
+    0,
+    1,
+    2
+   ],
+   "exact_max_n": 4800
+  },
+  "geometric_difference": {
+   "lambdas": [
+    0.0,
+    0.001,
+    0.01
+   ]
+  },
+  "software": {
+   "python": "3.11.15",
+   "numpy": "2.4.4",
+   "scipy": "1.17.1",
+   "scikit_learn": "1.8.0",
+   "pennylane": "0.45.1",
+   "matplotlib": "3.10.9"
+  },
+  "hardware": {
+   "cpu": "2 vCPU x86_64 (cloud container)",
+   "ram_gb": 7,
+   "os": "Linux"
+  }
+ },
+ "n_rows": 11650,
+ "merged_from": [
+  "main_A.csv",
+  "main_B.csv"
+ ]
+}

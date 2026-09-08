@@ -1,0 +1,14 @@
+{
+ "figure": "fig05_EF_vs_m",
+ "description": "relative Frobenius error $E_F$ versus landmark budget m for the trained covariant quantum kernel; median and IQR over 10 seeds; one panel per task.",
+ "sources": [
+  "results/main_per_seed.csv"
+ ],
+ "source_sha256": {
+  "main_per_seed.csv": "71f433112acc91a8"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:58:50.898979Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

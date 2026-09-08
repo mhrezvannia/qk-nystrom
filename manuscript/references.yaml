@@ -1,0 +1,216 @@
+# Structured reference records (verified; see docs/reference_verification.md). Rendered by manuscript/refs.py in
+# Springer Basic (name–year) style for the manuscript and as BibTeX for the LaTeX template. Do not hand-edit the rendered list.
+# authors: "Surname, Initials" (initials without dots, e.g. "SM"); kind: article | proceedings | preprint
+- key: canatar2023
+  authors: ["Canatar, A", "Peters, E", "Pehlevan, C", "Wild, SM", "Shaydulin, R"]
+  year: 2023
+  title: Bandwidth enables generalization in quantum kernel models
+  kind: article
+  journal: Trans Mach Learn Res
+  note: OpenReview A1N2qp4yAq; arXiv:2206.06686
+- key: coelho2025
+  authors: ["Coelho, R", "Kruse, G", "Rosskopf, A"]
+  year: 2025
+  title: Quantum-efficient kernel target alignment
+  kind: proceedings
+  booktitle: "Proceedings of the 17th International Conference on Agents and Artificial Intelligence (ICAART 2025), vol 1"
+  publisher: SciTePress
+  pages: 763–772
+  doi: 10.5220/0013391500003890
+  arxiv: "2502.08225"
+- key: drineas2005
+  authors: ["Drineas, P", "Mahoney, MW"]
+  year: 2005
+  title: On the Nyström method for approximating a Gram matrix for improved kernel-based learning
+  kind: article
+  journal: J Mach Learn Res
+  volume: 6
+  pages: 2153–2175
+- key: gittens2016
+  authors: ["Gittens, A", "Mahoney, MW"]
+  year: 2016
+  title: Revisiting the Nyström method for improved large-scale machine learning
+  kind: article
+  journal: J Mach Learn Res
+  volume: 17
+  issue: 117
+  pages: 1–65
+- key: glick2024
+  authors: ["Glick, JR", "Gujarati, TP", "Córcoles, AD", "Kim, Y", "Kandala, A", "Gambetta, JM", "Temme, K"]
+  year: 2024
+  title: Covariant quantum kernels for data with group structure
+  kind: article
+  journal: Nat Phys
+  volume: 20
+  pages: 479–483
+  doi: 10.1038/s41567-023-02340-9
+- key: havlicek2019
+  authors: ["Havlíček, V", "Córcoles, AD", "Temme, K", "Harrow, AW", "Kandala, A", "Chow, JM", "Gambetta, JM"]
+  year: 2019
+  title: Supervised learning with quantum-enhanced feature spaces
+  kind: article
+  journal: Nature
+  volume: 567
+  pages: 209–212
+  doi: 10.1038/s41586-019-0980-2
+- key: huang2021
+  authors: ["Huang, H-Y", "Broughton, M", "Mohseni, M", "Babbush, R", "Boixo, S", "Neven, H", "McClean, JR"]
+  year: 2021
+  title: Power of data in quantum machine learning
+  kind: article
+  journal: Nat Commun
+  volume: 12
+  pages: "2631"
+  doi: 10.1038/s41467-021-22539-9
+- key: kumar2012
+  authors: ["Kumar, S", "Mohri, M", "Talwalkar, A"]
+  year: 2012
+  title: Sampling methods for the Nyström method
+  kind: article
+  journal: J Mach Learn Res
+  volume: 13
+  pages: 981–1006
+- key: larocca2022
+  authors: ["Larocca, M", "Sauvage, F", "Sbahi, FM", "Verdon, G", "Coles, PJ", "Cerezo, M"]
+  year: 2022
+  title: Group-invariant quantum machine learning
+  kind: article
+  journal: PRX Quantum
+  volume: 3
+  pages: "030341"
+  doi: 10.1103/PRXQuantum.3.030341
+- key: meyer2023
+  authors: ["Meyer, JJ", "Mularski, M", "Gil-Fuster, E", "Mele, AA", "Arzani, F", "Wilms, A", "Eisert, J"]
+  year: 2023
+  title: Exploiting symmetry in variational quantum machine learning
+  kind: article
+  journal: PRX Quantum
+  volume: 4
+  pages: "010328"
+  doi: 10.1103/PRXQuantum.4.010328
+- key: nguyen2024
+  authors: ["Nguyen, QT", "Schatzki, L", "Braccia, P", "Ragone, M", "Coles, PJ", "Sauvage, F", "Larocca, M", "Cerezo, M"]
+  year: 2024
+  title: Theory for equivariant quantum neural networks
+  kind: article
+  journal: PRX Quantum
+  volume: 5
+  pages: "020328"
+  doi: 10.1103/PRXQuantum.5.020328
+- key: oglic2017
+  authors: ["Oglic, D", "Gärtner, T"]
+  year: 2017
+  title: Nyström method with kernel k-means++ samples as landmarks
+  kind: proceedings
+  booktitle: "Proceedings of the 34th International Conference on Machine Learning (ICML 2017), PMLR 70"
+  pages: 2652–2660
+- key: ragone2022
+  authors: ["Ragone, M", "Braccia, P", "Nguyen, QT", "Schatzki, L", "Coles, PJ", "Sauvage, F", "Larocca, M", "Cerezo, M"]
+  year: 2022
+  title: Representation theory for geometric quantum machine learning
+  kind: preprint
+  arxiv: "2210.07980"
+- key: rahimi2007
+  authors: ["Rahimi, A", "Recht, B"]
+  year: 2007
+  title: Random features for large-scale kernel machines
+  kind: proceedings
+  booktitle: "Advances in Neural Information Processing Systems 20 (NIPS 2007)"
+  publisher: Curran Associates
+- key: rezvannia2026
+  authors: ["Rezvannia, M"]
+  year: 2026
+  title: A hybrid quantum machine learning framework based on Nyström approximation for scalability enhancement of quantum kernels
+  kind: preprint
+  note: Research Square preprint rs-8474206/v1
+- key: schatzki2024
+  authors: ["Schatzki, L", "Larocca, M", "Nguyen, QT", "Sauvage, F", "Cerezo, M"]
+  year: 2024
+  title: Theoretical guarantees for permutation-equivariant quantum neural networks
+  kind: article
+  journal: npj Quantum Inf
+  volume: 10
+  pages: "12"
+  doi: 10.1038/s41534-024-00804-1
+- key: schnabel2025
+  authors: ["Schnabel, J", "Roth, M"]
+  year: 2025
+  title: "Quantum kernel methods under scrutiny: a benchmarking study"
+  kind: article
+  journal: Quantum Mach Intell
+  volume: 7
+  pages: "58"
+  doi: 10.1007/s42484-025-00273-5
+- key: schuld2021
+  authors: ["Schuld, M"]
+  year: 2021
+  title: Supervised quantum machine learning models are kernel methods
+  kind: preprint
+  arxiv: "2101.11020"
+- key: schuld2019
+  authors: ["Schuld, M", "Killoran, N"]
+  year: 2019
+  title: Quantum machine learning in feature Hilbert spaces
+  kind: article
+  journal: Phys Rev Lett
+  volume: 122
+  pages: "040504"
+  doi: 10.1103/PhysRevLett.122.040504
+- key: schuld2021b
+  authors: ["Schuld, M", "Sweke, R", "Meyer, JJ"]
+  year: 2021
+  title: Effect of data encoding on the expressive power of variational quantum-machine-learning models
+  kind: article
+  journal: Phys Rev A
+  volume: 103
+  pages: "032430"
+  doi: 10.1103/PhysRevA.103.032430
+- key: shaydulin2022
+  authors: ["Shaydulin, R", "Wild, SM"]
+  year: 2022
+  title: Importance of kernel bandwidth in quantum machine learning
+  kind: article
+  journal: Phys Rev A
+  volume: 106
+  pages: "042407"
+  doi: 10.1103/PhysRevA.106.042407
+- key: srikumar2023
+  authors: ["Srikumar, M", "Hill, CD", "Hollenberg, LCL"]
+  year: 2023
+  title: A kernel-based quantum random forest for improved classification
+  kind: preprint
+  arxiv: 2210.02355v2
+- key: thanasilp2024
+  authors: ["Thanasilp, S", "Wang, S", "Cerezo, M", "Holmes, Z"]
+  year: 2024
+  title: Exponential concentration in quantum kernel methods
+  kind: article
+  journal: Nat Commun
+  volume: 15
+  pages: "5200"
+  doi: 10.1038/s41467-024-49287-w
+- key: wiersema2025
+  authors: ["Wiersema, R", "Kemper, AF", "Bakalov, BN", "Killoran, N"]
+  year: 2025
+  title: Geometric quantum machine learning with horizontal quantum gates
+  kind: article
+  journal: Phys Rev Res
+  volume: 7
+  pages: "013148"
+  doi: 10.1103/PhysRevResearch.7.013148
+- key: williams2001
+  authors: ["Williams, CKI", "Seeger, M"]
+  year: 2001
+  title: Using the Nyström method to speed up kernel machines
+  kind: proceedings
+  booktitle: "Advances in Neural Information Processing Systems 13 (NIPS 2000)"
+  publisher: MIT Press
+  pages: 682–688
+- key: zhang2008
+  authors: ["Zhang, K", "Tsang, IW", "Kwok, JT"]
+  year: 2008
+  title: Improved Nyström low-rank approximation and error analysis
+  kind: proceedings
+  booktitle: "Proceedings of the 25th International Conference on Machine Learning (ICML 2008)"
+  publisher: ACM
+  pages: 1232–1239

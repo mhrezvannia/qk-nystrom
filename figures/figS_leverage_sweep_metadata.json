@@ -1,0 +1,14 @@
+{
+ "figure": "figS_leverage_sweep",
+ "description": "Ridge-leverage-score landmark sampling: E_F versus ridge parameter \u03bb for m = 10/20/60 (7 tasks \u00d7 10 seeds; median and IQR), with uniform and k-means-centroid references.",
+ "sources": [
+  "results/leverage_sweep_per_seed.csv"
+ ],
+ "source_sha256": {
+  "leverage_sweep_per_seed.csv": "8a606d515e282cc4"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:59:07.568453Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

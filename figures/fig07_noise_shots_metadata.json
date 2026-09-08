@@ -1,0 +1,14 @@
+{
+ "figure": "fig07_noise_shots",
+ "description": "Finite-shot robustness of exact and Nystr\u00f6m-compressed quantum kernels (2 tasks \u00d7 10 seeds pooled).",
+ "sources": [
+  "results/noise_per_seed.csv"
+ ],
+ "source_sha256": {
+  "noise_per_seed.csv": "f620f925b1d152c4"
+ },
+ "script": "analysis/make_figures.py",
+ "generated": "2026-09-08T12:59:02.842502Z",
+ "code_version": "uncommitted",
+ "config": "configs/main.yaml"
+}

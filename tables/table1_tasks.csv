@@ -1,0 +1,8 @@
+Task,n_train,n_test,PCA-8 explained variance,seeds
+Breast Cancer (tabular),398,171,100.0%,10
+F-MNIST T-shirt/Trouser,600,2000,71.6%,10
+F-MNIST T-shirt/Shirt,600,2000,70.8%,10
+F-MNIST Pullover/Coat,600,2000,69.8%,10
+F-MNIST Sandal/Sneaker,600,2000,56.4%,10
+MNIST 3/8,600,1984,45.6%,10
+MNIST 4/9,600,1991,49.6%,10
