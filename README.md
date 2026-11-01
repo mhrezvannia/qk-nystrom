@@ -102,7 +102,7 @@ Please cite the paper and this archive:
   year      = {2026},
   version   = {1.0.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.22661535}
 }
 ```
 
